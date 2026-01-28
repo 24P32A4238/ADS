@@ -1,0 +1,5 @@
+s = input()
+words = s.split()
+
+pals = [w for w in words if w == w[::-1]]
+print(max(pals, key=len) if pals else "None")
