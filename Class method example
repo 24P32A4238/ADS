@@ -1,0 +1,9 @@
+class Student:
+    school = "ABC"
+
+    @classmethod
+    def change(cls, name):
+        cls.school = name
+
+Student.change("XYZ")
+print(Student.school)
