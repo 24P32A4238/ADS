@@ -1,0 +1,2 @@
+arr = list(map(int, input().split()))
+print("Unique" if len(arr) == len(set(arr)) else "Not Unique")
