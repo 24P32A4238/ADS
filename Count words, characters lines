@@ -1,0 +1,7 @@
+s = input()
+
+words = len(s.split())
+chars = len(s)
+lines = s.count('\n') + 1
+
+print(words, chars, lines)
