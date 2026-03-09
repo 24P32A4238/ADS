@@ -1,0 +1,7 @@
+nums = list(map(int, input().split()))
+
+count = 0
+for i in nums:
+    count += 1
+
+print("Length:", count)
