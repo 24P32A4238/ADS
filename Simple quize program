@@ -1,0 +1,15 @@
+score = 0
+
+print("Q1: Capital of India?")
+ans = input()
+
+if ans.lower() == "delhi":
+    score += 1
+
+print("Q2: 2 + 2 = ?")
+ans = input()
+
+if ans == "4":
+    score += 1
+
+print("Score:", score)
